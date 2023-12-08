@@ -25,3 +25,57 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.MuiOutlinedInput-root fieldset {
+  border-color: white;
+
+}
+
+.MuiOutlinedInput-root:hover:not(.Mui-focused) fieldset {
+  border: 1px solid #ccc !important;
+
+
+}
+
+.MuiInputLabel-outlined, .MuiTextField-root, .MuiInputLabel-outlined input, .MuiTextField-root input{
+  color: #cccccc;
+}
+
+.MuiTextField-root:hover .MuiInputLabel-outlined {
+  color: #cccccc;
+}
+
+.form-error{
+  color: red;
+}
+
+form > div {
+  padding: 10px;
+}
+
+.transactions{
+  display: flex;
+}
+
+.transactions .transactions-list{
+  flex: 1;
+  margin: 10px  20px ;
+}
+
+.transactions .transactions-form{
+  width: 300px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.debit{
+  color: green;
+}
+.credit{
+  color: red;
+}
+
